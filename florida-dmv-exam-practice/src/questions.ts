@@ -224,6 +224,192 @@ export const questions: Question[] = [
         ],
         correctAnswer: 1,
     },
+    {
+        question: "What does a double solid yellow line on the road indicate?",
+        options: [
+            "You may pass if the way is clear",
+            "No passing is allowed in either direction",
+            "Traffic is moving in opposite directions",
+            "Traffic is moving in the same direction",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        question: "When approaching a stopped emergency vehicle with flashing lights, what should you do?",
+        options: [
+            "Slow down and move over one lane, if possible",
+            "Speed up and pass quickly",
+            "Maintain your speed and stay in your lane",
+            "None of the above",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        question: "Which of the following is true regarding Florida's implied consent law?",
+        options: [
+            "You must take a breathalyzer test if arrested for DUI",
+            "You must take a field sobriety test if arrested for DUI",
+            "You can refuse a breathalyzer test without consequences",
+            "None of the above",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        question: "When driving in fog, you should:",
+        options: [
+            "Turn on your high beam headlights",
+            "Turn on your low beam headlights",
+            "Turn on your hazard lights",
+            "None of the above",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        question: "When is it legal to drive in the left lane of a multi-lane highway?",
+        options: [
+            "When passing another vehicle",
+            "When the right lane is closed",
+            "When preparing for a left turn",
+            "All of the above",
+        ],
+        correctAnswer: 3,
+    },
+    {
+        question: "When driving on a two-lane road with a solid yellow centerline and a broken yellow centerline, which side may pass?",
+        options: [
+            "The side with the solid yellow centerline",
+            "The side with the broken yellow centerline",
+            "Both sides may pass",
+            "None of the above",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        question: "In Florida, a first-time conviction for racing on the highway can result in:",
+        options: [
+            "A fine of up to $1,000",
+            "Mandatory community service",
+            "Driver's license revocation for up to one year",
+            "All of the above",
+        ],
+        correctAnswer: 3,
+    },
+    {
+        question: "When parallel parking, you should park within how many inches from the curb?",
+        options: ["6 inches", "12 inches", "18 inches", "24 inches"],
+        correctAnswer: 1,
+    },
+    {
+        question: "What should you do if your vehicle starts to hydroplane?",
+        options: [
+            "Turn the steering wheel sharply",
+            "Apply the brakes firmly",
+            "Ease off the accelerator and steer in the direction you want to go",
+            "None of the above",
+        ],
+        correctAnswer: 2,
+    },
+    {
+        question: "What is the minimum age to obtain a learner's license in Florida?",
+        options: ["14 years", "15 years", "16 years", "17 years"],
+        correctAnswer: 1,
+    },
+    {
+        question: "Which of the following must you do when approaching a railroad crossing?",
+        options: [
+            "Stop and listen for an approaching train",
+            "Slow down and be prepared to stop if a train is approaching",
+            "Speed up and cross the tracks quickly",
+            "None of the above",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        question: "When can you make a left turn on red?",
+        options: [
+            "When turning from a one-way street onto another one-way street",
+            "When turning from a two-way street onto a one-way street",
+            "When there is no traffic approaching from the opposite direction",
+            "None of the above",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        question: "When two vehicles arrive at an uncontrolled intersection at the same time, who has the right of way?",
+        options: [
+            "The vehicle on the left",
+            "The vehicle on the right",
+            "The vehicle that arrived first",
+            "None of the above",
+        ],
+        correctAnswer: 1,
+    },
+    {
+        question: "When should you use your horn?",
+        options: [
+            "To greet a friend",
+            "To express frustration with another driver",
+            "To alert another driver of your presence when they may not see you",
+            "None of the above",
+        ],
+        correctAnswer: 2,
+    },
+    {
+        question: "When should you use your high beam headlights?",
+        options: [
+            "When driving in fog",
+            "When approaching oncoming traffic",
+            "When driving on a well-lit city street",
+            "When driving on a dark road with no oncoming traffic",
+        ],
+        correctAnswer: 3,
+    },
+    {
+        question: "When driving in a roundabout, you should:",
+        options: [
+            "Yield to vehicles already in the roundabout",
+            "Enter the roundabout without yielding",
+            "Drive in the left lane",
+            "None of the above",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        question: "What is the maximum speed limit on an interstate highway in Florida?",
+        options: ["55 mph", "65 mph", "70 mph", "75 mph"],
+        correctAnswer: 2,
+    },
+    {
+        question: "What should you do if you encounter a school bus with its stop sign extended and red lights flashing?",
+        options: [
+            "Stop and wait until the red lights stop flashing",
+            "Pass the bus on the left",
+            "Continue driving if you are in the opposite lane on a divided highway",
+            "Both A and C",
+        ],
+        correctAnswer: 3,
+    },
+    {
+        question: "When can you make a right turn on red?",
+        options: [
+            "After a complete stop and when it's safe to do so",
+            "Only when there is no traffic approaching",
+            "When there is a green arrow",
+            "None of the above",
+        ],
+        correctAnswer: 0,
+    },
+    {
+        question: "What does a flashing yellow traffic light mean?",
+        options: [
+            "Stop and proceed when safe",
+            "Stop and wait for a green light",
+            "Slow down and proceed with caution",
+            "None of the above",
+        ],
+        correctAnswer: 2,
+    },
+
 ];
 
 shuffleArray(questions);
