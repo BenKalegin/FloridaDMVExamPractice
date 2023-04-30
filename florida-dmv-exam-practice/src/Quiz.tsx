@@ -3,7 +3,7 @@ import {questions} from './questions';
 import Question from "./Question";
 
 const Quiz: React.FC = () => {
-    const [incorrectQuestions, setIncorrectQuestions] = useState<number[]>([]);
+    const [incorrectQuestions, setIncorrectQuestions] = useState<string[]>([]);
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
 
@@ -13,7 +13,7 @@ const Quiz: React.FC = () => {
         if (incorrectQuestions.length > 0) {
             results += "\n\nYou answered the following questions incorrectly:";
             incorrectQuestions.forEach((questionIndex) => {
-                results += `\n\n${questions[questionIndex].question}`;
+                results += `\n\n${questionIndex}`;
             });
         }
 
@@ -25,7 +25,10 @@ const Quiz: React.FC = () => {
         if (answer === questions[currentQuestion].correctAnswer) {
             updatedScore++;
         } else {
-            setIncorrectQuestions([...incorrectQuestions, currentQuestion]);
+            setIncorrectQuestions([...incorrectQuestions,
+                questions[currentQuestion].question
+                + "\nyour answer: "  + questions[currentQuestion].options[answer]
+                + "\ncorrect:" + questions[currentQuestion].options[questions[currentQuestion].correctAnswer]]);
         }
         if (currentQuestion + 1 < questions.length) {
             setCurrentQuestion(currentQuestion + 1);

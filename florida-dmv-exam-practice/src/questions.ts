@@ -14,7 +14,7 @@ function shuffleArray(array: any[]) {
 // Shuffle answer choices for a question
 function shuffleChoices(question: Question) {
     const choices = question.options.map((option, index) => ({ option, index }));
-    shuffleArray(choices);
+    //shuffleArray(choices);
     const correctAnswer = choices.findIndex((choice) => choice.index === question.correctAnswer);
     return { ...question, options: choices.map((choice) => choice.option), correctAnswer };
 }
